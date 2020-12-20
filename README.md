@@ -16,7 +16,7 @@ python3 manage.py runserver
 
 Then when we navigate to `http://localhost:8000/api/monsters` we will see the list of our monsters as well as a form to create new monsters.
 
-If we want to examine a monster in detail we should add an `id` to the end of the url... like `http://localhost:8000/api/monsters2`
+If we want to examine a monster in detail we should add an `id` to the end of the url... like `http://localhost:8000/api/monsters/2`
 
 This should give us back a page with something like:
 
